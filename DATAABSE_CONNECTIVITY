@@ -1,0 +1,36 @@
+FIREBASE-DATABASE CONNECTIVITY
+
+//ADD DEPENDENCIES
+//OR ADD FIREBASE FROM ANDROID STUDION FROM TOOL
+
+// add this
+buildscript {
+    // ...
+    dependencies {
+        // ...
+        classpath 'com.google.gms:google-services:4.1.0' // google-services plugin
+    }
+}
+
+//add this at bottom
+//app
+apply plugin: 'com.google.gms.google-services'
+
+LIBRARIES OF FIREBASE IF YOU WANT TO USE SOME FEATURES OF FIREBASE THEN YOU NEED TO ADD THIS LIBRARIES
+
+Gradle Dependency Line	                        Service
+com.google.firebase:firebase-core:16.0.4	Analytics
+com.google.firebase:firebase-database:16.0.3	Realtime Database
+com.google.firebase:firebase-firestore:17.1.1	Cloud Firestore
+com.google.firebase:firebase-storage:16.0.3	Storage
+com.crashlytics.sdk.android:crashlytics:2.9.5	Crashlytics
+com.google.firebase:firebase-auth:16.0.4	Authentication
+com.google.firebase:firebase-messaging:17.3.3	Cloud Messaging
+com.google.firebase:firebase-config:16.0.1	Remote Config
+com.google.firebase:firebase-invites:16.0.4	Invites and Dynamic Links
+com.google.firebase:firebase-ads:16.0.1	AdMob
+com.google.firebase:firebase-appindexing:16.0.2	App Indexing
+com.google.firebase:firebase-perf:16.1.2	Performance Monitoring
+com.google.firebase:firebase-functions:16.1.1	Cloud Functions for Firebase Client SDK
+com.google.firebase:firebase-ml-vision:17.0.1	ML Kit (Vision)
+com.google.firebase:firebase-ml-model-interpreter:16.2.2	ML Kit (Custom Model)
